@@ -1,1 +1,9 @@
-src/자바 알고리즘 강의/강의자료/
+#IntelliJ - 해당 이름을 갖는 파일이나 디렉토리 모두 제외
+.idea
+.idea/*.xml
+*iml
+out
+gen
+build
+rebel.xml
+*.class
