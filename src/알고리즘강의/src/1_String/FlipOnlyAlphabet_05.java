@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class FlipOnlyAlphabet_05 {
     public static String solution(String s){
+        /*My Solution*/
         StringBuilder alphabet = new StringBuilder();   //알파벳만 담을 변수
-        char[] chars = s.toCharArray(); 
+        char[] chars = s.toCharArray();
         String pos = "";    //위치 담을 변수
-        
+
         //1. 알파벳 추출
         for (int i = 0; i < chars.length; i++) {
             if((chars[i]>='a'&&chars[i]<='z')||(chars[i]>='A'&&chars[i]<='Z')){
