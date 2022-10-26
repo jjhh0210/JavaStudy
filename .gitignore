@@ -1,0 +1,14 @@
+#IntelliJ - 해당 이름을 갖는 파일이나 디렉토리 모두 제외
+.idea
+.idea/
+**/.idea/
+out
+out/
+**/out/
+*iml
+out
+gen
+build
+*.xml
+*.class
+강의자료
