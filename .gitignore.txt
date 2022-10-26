@@ -8,3 +8,5 @@ build
 rebel.xml
 *.class
 강의자료
+**/.idea/
+**/out/
