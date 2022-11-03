@@ -4,7 +4,7 @@ public class SecretCode_12 {
     public static String solution(int n, String s) {
         String answer = "";
         for (int i = 0; i <n; i++) {
-            String tmp = s.substring(7*i,7*(i+1));
+            String tmp = s.substring(7*i,7*(i+1));  //--> tmp = s.substring(0,7), s=s.substring(7);
             //1. 2진수변환
             tmp = tmp.replace('#', '1').replace('*', '0');
             //2. 10진수 변환

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CondenseString_11 {
     public static String solution(String s) {
-        String answer = String.valueOf(s.charAt(0));
+        String answer = Character.toString(s.charAt(0)); //String.valueOf(s.charAt(0));
         int num = 1;
         char[] chars = s.toCharArray();
         for (int i = 1; i < s.length(); i++) {
