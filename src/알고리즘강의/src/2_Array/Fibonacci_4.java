@@ -12,6 +12,7 @@ public class Fibonacci_4 {
     }
 
     public static void solution2(int n) {
+        //만약 배열을 쓰지 말라고 한다면?
         int a=1,b=1,c;
         System.out.print(a + " " + b + " ");
         for (int i = 2; i < n; i++) {
