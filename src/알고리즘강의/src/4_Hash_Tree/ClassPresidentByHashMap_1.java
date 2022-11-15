@@ -20,7 +20,7 @@ public class ClassPresidentByHashMap_1 {
         Iterator it = map.entrySet().iterator();   //set.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry<Character,Integer> e = (Map.Entry) it.next();
-            //System.out.println(e);
+            System.out.println(e);
             int number = e.getValue();
             if (number > max) {
                 max = number;
