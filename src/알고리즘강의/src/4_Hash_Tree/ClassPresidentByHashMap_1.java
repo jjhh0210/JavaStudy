@@ -29,10 +29,29 @@ public class ClassPresidentByHashMap_1 {
         }
         return answer;
     }
+
+    public static char solution2(int n, String s) {
+        char answer = ' ';
+        int max = Integer.MIN_VALUE;
+        HashMap<Character, Integer> map = new HashMap<>();
+        //map에 char,빈도수 넣기
+        for (char x : s.toCharArray()) {
+            map.put(x, map.getOrDefault(x, 0) + 1); //꼭 기억하기
+        }
+        //map탐색
+        for (char key : map.keySet()) {
+            if(map.get(key)>max){
+                max = map.get(key);
+                answer = key;
+            }
+        }
+        return answer;
+    }
+
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String str = kb.next();
-        System.out.println(solution(n, str));
+        System.out.println(solution2(n, str));
     }
 }
