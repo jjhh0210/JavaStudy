@@ -24,7 +24,6 @@ public class CrainKakao_3 {
                 }
             }
         }
-
         return cnt;
     }
 
