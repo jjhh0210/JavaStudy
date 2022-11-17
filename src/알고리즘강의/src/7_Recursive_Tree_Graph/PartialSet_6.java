@@ -17,7 +17,6 @@ public class PartialSet_6 {
             ch[L] = 0;  //(사용하지 않음)
             DFS(L + 1);//오른쪽
         }
-
     }
 
     public static void main(String[] args) {

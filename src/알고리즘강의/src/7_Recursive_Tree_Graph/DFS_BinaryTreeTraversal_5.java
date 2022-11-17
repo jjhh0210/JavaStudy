@@ -7,7 +7,7 @@ class Node{
     }
 }
 
-public class BinaryTreeTraversal_5{
+public class DFS_BinaryTreeTraversal_5{
     Node root;
     public void DFS(Node root){
         if(root==null)
@@ -20,7 +20,7 @@ public class BinaryTreeTraversal_5{
     }
 
     public static void main(String args[]) {
-        BinaryTreeTraversal_5 tree=new BinaryTreeTraversal_5();
+        DFS_BinaryTreeTraversal_5 tree=new DFS_BinaryTreeTraversal_5();
         tree.root=new Node(1);
         tree.root.lt=new Node(2);
         tree.root.rt=new Node(3);
