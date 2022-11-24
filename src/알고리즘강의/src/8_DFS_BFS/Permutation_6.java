@@ -15,7 +15,7 @@ public class Permutation_6 {
             for (int i = 0; i < n; i++) {
                 if(ch[i]==0){
                     ch[i]=1;
-                    pm[L] = arr[i];
+                    pm[L] = arr[i]; //L번째에 뽑는 행위
                     DFS(L + 1);
                     ch[i] = 0;  //리턴 후에는 0으로 다시 체크 풀어줌
                 }
