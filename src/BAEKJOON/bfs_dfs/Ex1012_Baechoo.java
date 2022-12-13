@@ -15,6 +15,7 @@ public class Ex1012_Baechoo {
     private static int[] dy = {0, 1, 0, -1};
     private static Queue<Point> q = new LinkedList<>();
 
+
     //1. DFS
     static void dfs(int x, int y) {
         for (int i = 0; i < 4; i++) {
